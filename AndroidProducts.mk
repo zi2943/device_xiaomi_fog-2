@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fog.mk
+    $(LOCAL_DIR)/voltage_fog.mk
+
+COMMON_LUNCH_CHOICES := \
+    voltage_fog-user \
+    voltage_fog-userdebug \
+    voltage_fog-eng
