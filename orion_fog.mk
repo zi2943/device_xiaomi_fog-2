@@ -11,13 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-ORION_MAINTAINER := Iverz
-ORION_MAINTAINER_LINK := https://t.me/JustVerz
+ORION_MAINTAINER := Zidnz0
+ORION_BUILDTYPE := Unofficial
+ORION_MAINTAINER_LINK := https://t.me/zidnz0
 ORION_GAPPS := false
-TARGET_ENABLE_BLUR := false
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
+TARGET_ENABLE_BLUR := true
+BUILD_GOOGLE_CONTACTS := false
+BUILD_GOOGLE_DIALER := false
+BUILD_GOOGLE_MESSAGE := false
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
